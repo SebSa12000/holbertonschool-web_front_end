@@ -13,16 +13,17 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    color: var(--text-color);
+    font-family: var(--font-family-base);
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
 }
 
-body {
-    color: var(--text-color);
-}
-
 a {
-    color: #161616;
+    color: var(--text-color);
 }
 
 .visually-hidden {
